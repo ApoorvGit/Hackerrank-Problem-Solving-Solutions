@@ -60,7 +60,7 @@ char* readline() {
     size_t alloc_length = 1024;
     size_t data_length = 0;
     char* data = malloc(alloc_length);
-
+//for(int i=0;i<n;i++)
     while (true) {
         char* cursor = data + data_length;
         char* line = fgets(cursor, alloc_length - data_length, stdin);
